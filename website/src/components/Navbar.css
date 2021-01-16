@@ -2,6 +2,23 @@
 	background-color: rgb(29, 29, 92);
 	height: 12vh;
 	color: white;
+	display: flex;
 	justify-content: space-around;
 	align-items: center;
+}
+
+.link-wrapper {
+	display: flex;
+	width: 40%;
+}
+
+.nav-link {
+	margin: 20px;
+	text-decoration: none;
+	color: white;
+}
+
+.home-link {
+	text-decoration: none;
+	color: white;
 }
