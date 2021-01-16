@@ -1,11 +1,19 @@
 import "./App.css";
+import Home from "./components/pages/Home";
+import Navbar from "./components/Navbar";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
-function App() {
+const App = () => {
 	return (
 		<>
-			<h1>Vbook!</h1>
+			<Router>
+				<Navbar />
+				<Switch>
+					<Route path="/" exact component={Home} />
+				</Switch>
+			</Router>
 		</>
 	);
-}
+};
 
 export default App;

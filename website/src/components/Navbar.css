@@ -1,0 +1,7 @@
+.navbar-container {
+	background-color: rgb(29, 29, 92);
+	height: 12vh;
+	color: white;
+	justify-content: space-around;
+	align-items: center;
+}
