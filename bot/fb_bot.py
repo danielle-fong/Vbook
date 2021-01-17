@@ -20,11 +20,13 @@ while speak_string != "stop":
         try:
             # using google speech recognition
             print(r.recognize_google(audio_text))
+            engine.say("Now sending your response: "+ str(r.recognize_google(audio_text)))
+            engine.runAndWait()
             speak_string = r.recognize_google(audio_text)
         except:
             print("Sorry, I did not get that")
 
-        time.sleep(3)
+        time.sleep(1)
         pyautogui.typewrite(speak_string)
         pyautogui.press('enter')
 
