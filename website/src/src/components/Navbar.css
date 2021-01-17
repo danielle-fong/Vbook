@@ -1,0 +1,32 @@
+.navbar-container {
+	background: linear-gradient(to bottom, #eb63b7 0%, #3eb2ff 100%);
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	height: 17vh;
+	color: white;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	position: sticky;
+	top: 0;
+	z-index: 999;
+}
+
+.link-wrapper {
+	display: flex;
+	width: 40%;
+}
+
+.nav-link {
+	margin: 20px;
+	text-decoration: none;
+	color: white;
+}
+
+.home-link {
+	max-width: 50px;
+	
+}
+
+.bot {
+	max-width: 80px;
+}
