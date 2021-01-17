@@ -4,12 +4,11 @@ import messengerImage from "./messenger.png";
 function Home() {
 	return (
 		<>
-			<div className="home-container">
-				<h1>VBook</h1>
-				<h2 className="home-header">THis is the home page</h2>
+
+				<h1 className="home-header">VBook</h1>
 				<div className="home-intro">
-					this is the intro part of the home page
-					<img src={messengerImage} />
+					<img src={messengerImage}/>
+					a voice-to-text tool for Facebook Messenger
 				</div>
 				<div className="home-description">
 					this is the lower part for more description stuff Lorem,
@@ -28,7 +27,7 @@ function Home() {
 					itaque eligendi, modi accusamus minima expedita ad delectus!
 					Laboriosam nam error totam.
 				</div>
-			</div>
+	
 		</>
 	);
 }
