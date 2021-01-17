@@ -1,3 +1,8 @@
 .how-it-works-header {
-	color: purple;
+	color: rgb(45, 44, 44);
+	display: flex;
+	justify-content: center;
+	padding: 30px;
+	font-size: 50px;
+	font-family: Arial, Helvetica, sans-serif;
 }

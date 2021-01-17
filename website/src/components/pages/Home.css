@@ -1,6 +1,6 @@
 .home-header {
 	color: black;
-	font-family:Arial, Helvetica, sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
 	font-size: 250%;
 	text-align: center;
 	padding-top: 20px;
@@ -9,20 +9,52 @@
 
 .home-intro {
 	color: black;
-	font-family:Arial, Helvetica, sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
 	font-size: 120%;
 	text-align: center;
 	padding-bottom: 20px;
 }
 
 .home-description {
+	display: grid;
+	grid-template-columns: 65% 35%;
+}
+
+img {
+	max-width: 500px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 20px;
+}
+
+.youtube-video {
+	display: flex;
+	width: 640px;
+	margin: 0 auto;
+}
+
+.gif-container {
+	padding: 20px;
+	float: left;
+}
+
+.explaination {
+	padding: 40px;
+	font-size: 20px;
+	text-align: right;
+	font-family: Arial, Helvetica, sans-serif;
+	float: right;
+	color: white;
+}
+
+.colour-background {
 	background-color: #235f88;
 }
 
-img{
-	max-width: 500px;
-	display: block;  
-	margin-left: auto;  
-	margin-right: auto;
-	padding-bottom: 20px;
+.example {
+	font-size: 50px;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 20px;
 }
