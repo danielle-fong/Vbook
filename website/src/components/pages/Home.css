@@ -5,6 +5,10 @@
 	text-align: center;
 	padding-top: 20px;
 	padding-bottom: 10px;
+	display: flex;
+	width: 150px;
+	justify-content: center;
+	margin: 0 auto;
 }
 
 .home-intro {
@@ -57,4 +61,5 @@ img {
 	text-align: center;
 	font-family: Arial, Helvetica, sans-serif;
 	padding: 20px;
+	color: rgb(244, 247, 206);
 }
