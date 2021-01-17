@@ -1,3 +1,11 @@
 .home-header {
 	color: aquamarine;
 }
+
+.home-intro {
+	background-color: rgb(184, 119, 119);
+}
+
+.home-description {
+	background-color: pink;
+}
