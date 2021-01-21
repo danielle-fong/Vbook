@@ -15,11 +15,11 @@ Logo
 
 Main Page
 
-![Main](https://github.com/oliverkpan/Vbook/blob/main/images/vbook2.jpg?raw=true)
+![Main](https://github.com/oliverkpan/Vbook/blob/main/images/vbook2.png?raw=true)
 
 About
 
-![About](https://github.com/oliverkpan/Vbook/blob/main/images/vbook3.jpg?raw=true)
+![About](https://github.com/oliverkpan/Vbook/blob/main/images/vbook3.png?raw=true)
 
 ### Video Demo
 [Youtube](https://www.youtube.com/watch?v=YXhGg20rh3o&t=1s)
